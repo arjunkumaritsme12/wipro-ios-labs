@@ -1,4 +1,3 @@
-
 import Foundation
 
 let studentName = "Arjun Kumar"
