@@ -1,154 +1,86 @@
 
-import Foundation
-
-let studentName = "Arjun Kumar"
+let studentName = "Arjun"
 let rollNumber = 2315510039
 
-let marks1 = 94.0
-let marks2 = 87.0
-let marks3 = 92.0
-let marks4 = 88.0
-let marks5 = 98.0
+let marks: [Int] = [85, 76, 92, 68, 79]
+let attendance = 85.0
 
-let attendance = 92.67
+let totalMarks = marks.reduce(0, +)
+let average = Double(totalMarks) / Double(marks.count)
+let percentage = (Double(totalMarks) / 500.0) * 100
 
-let totalSubjects = 5
-let maximumMarks = 100.0
-let passingMarks = 40.0
+let hasValidMarks = marks.allSatisfy { $0 >= 0 && $0 <= 100 }
+let hasValidAttendance = attendance >= 0 && attendance <= 100
 
-let totalMarks = marks1 + marks2 + marks3 + marks4 + marks5
-let average = totalMarks / Double(totalSubjects)
-let percentage = (totalMarks / (Double(totalSubjects) * maximumMarks)) * 100
+let hasPassed = marks.allSatisfy { $0 >= 35 }
+let attendanceEligible = attendance >= 75
 
-var grade: String
-var result = "Pass"
+var result = "Fail"
+var grade = "F"
 
-if average < passingMarks {
-    result = "Fail"
-}
+if hasValidMarks && hasValidAttendance {
+    if hasPassed && attendanceEligible {
+        result = "Pass"
 
-if percentage >= 90 {
-    grade = "A+"
-} else if percentage >= 80 {
-    grade = "A"
-} else if percentage >= 70 {
-    grade = "B"
-} else if percentage >= 60 {
-    grade = "C"
-} else if percentage >= 50 {
-    grade = "D"
+        switch percentage {
+        case 90...100:
+            grade = "A+"
+        case 80..<90:
+            grade = "A"
+        case 70..<80:
+            grade = "B"
+        case 60..<70:
+            grade = "C"
+        case 50..<60:
+            grade = "D"
+        default:
+            grade = "F"
+        }
+    }
 } else {
-    grade = "F"
+    result = "Invalid Input"
 }
 
-let gradeMessage: String
+var bonusMarks = 0
+bonusMarks += 5
 
-switch grade {
-case "A+":
-    gradeMessage = "Excellent Performance"
-case "A":
-    gradeMessage = "Very Good Performance"
-case "B":
-    gradeMessage = "Good Performance"
-case "C":
-    gradeMessage = "Average Performance"
-case "D":
-    gradeMessage = "Needs Improvement"
-default:
-    gradeMessage = "Failed"
-}
+let optionalRemark: String? = nil
+let remark = optionalRemark ?? "No remarks"
 
-print("===== Student Report =====")
+let firstSubject = marks.first ?? 0
+let lastSubject = marks.last ?? 0
+
+let addition = firstSubject + lastSubject
+let subtraction = firstSubject - lastSubject
+let multiplication = firstSubject * lastSubject
+let division = Double(firstSubject) / Double(lastSubject)
+
+let isHighScorer = percentage >= 80
+let isLowAttendance = attendance < 75
+let isEligible = hasPassed && attendanceEligible
+let isNotEligible = !isEligible
+
+print("===== STUDENT RESULT =====")
 print("Name: \(studentName)")
 print("Roll Number: \(rollNumber)")
-print("Total Marks: \(totalMarks)/500")
+print("Marks: \(marks)")
+print("Attendance: \(attendance)%")
+print("Total: \(totalMarks)/500")
 print("Average: \(average)")
 print("Percentage: \(percentage)%")
-print("Grade: \(grade)")
 print("Result: \(result)")
-print("Performance: \(gradeMessage)")
-print("Attendance: \(attendance)%")
+print("Grade: \(grade)")
+print("Attendance Eligible: \(attendanceEligible)")
+print("Remark: \(remark)")
 
-if attendance >= 75 && attendance <= 100 {
-    print("Attendance Status: Eligible")
-} else {
-    print("Attendance Status: Not Eligible")
-}
-
-let a = 20
-let b = 10
-
-print("\n===== Arithmetic Operators =====")
-print("Addition: \(a + b)")
-print("Subtraction: \(a - b)")
-print("Multiplication: \(a * b)")
-print("Division: \(a / b)")
-print("Remainder: \(a % b)")
-
-print("\n===== Comparison Operators =====")
-print("Equal: \(a == b)")
-print("Not Equal: \(a != b)")
-print("Greater Than: \(a > b)")
-print("Less Than: \(a < b)")
-print("Greater Than or Equal: \(a >= b)")
-print("Less Than or Equal: \(a <= b)")
-
-print("\n===== Logical Operators =====")
-let isPassed = true
-let hasGoodAttendance = true
-
-print("AND: \(isPassed && hasGoodAttendance)")
-print("OR: \(isPassed || false)")
-print("NOT: \(!isPassed)")
-
-print("\n===== Compound Assignment Operators =====")
-var score = 50
-
-score += 10
-print("After += 10: \(score)")
-
-score -= 5
-print("After -= 5: \(score)")
-
-score *= 2
-print("After *= 2: \(score)")
-
-score /= 5
-print("After /= 5: \(score)")
-
-print("\n===== Nil-Coalescing Operator =====")
-let studentNickname: String? = nil
-let displayName = studentNickname ?? studentName
-
-print("Display Name: \(displayName)")
-
-func validateMarks(_ marks: Double) -> String {
-    if marks < 0 || marks > 100 {
-        return "Invalid Marks"
-    } else if marks < passingMarks {
-        return "Fail"
-    } else {
-        return "Pass"
-    }
-}
-
-func validateAttendance(_ attendance: Double) -> String {
-    if attendance < 0 || attendance > 100 {
-        return "Invalid Attendance"
-    } else if attendance < 75 {
-        return "Not Eligible"
-    } else {
-        return "Eligible"
-    }
-}
-
-print("\n===== Boundary Value Validation =====")
-print("Marks 0: \(validateMarks(0))")
-print("Marks 100: \(validateMarks(100))")
-print("Failing Marks 30: \(validateMarks(30))")
-print("Invalid Marks 110: \(validateMarks(110))")
-
-print("Attendance 0: \(validateAttendance(0))")
-print("Attendance 100: \(validateAttendance(100))")
-print("Invalid Attendance 120: \(validateAttendance(120))")
-print("Attendance 80: \(validateAttendance(80))")
+print("\n===== OPERATOR DEMONSTRATION =====")
+print("Addition: \(addition)")
+print("Subtraction: \(subtraction)")
+print("Multiplication: \(multiplication)")
+print("Division: \(division)")
+print("Comparison: \(isHighScorer)")
+print("Logical AND: \(isEligible)")
+print("Logical NOT: \(isNotEligible)")
+print("Low Attendance: \(isLowAttendance)")
+print("Compound Assignment: \(bonusMarks)")
+print("Nil Coalescing: \(remark)")
