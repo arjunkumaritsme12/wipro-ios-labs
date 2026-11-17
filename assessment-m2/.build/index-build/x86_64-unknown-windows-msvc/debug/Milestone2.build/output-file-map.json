@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\primary.swiftdeps"
+  },
+  "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\ConcurrentDataService.swift": {
+    "dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\ConcurrentDataService.d",
+    "object": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\ConcurrentDataService.swift.o",
+    "swiftmodule": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\ConcurrentDataService~partial.swiftmodule",
+    "swift-dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\ConcurrentDataService.swiftdeps",
+    "diagnostics": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\ConcurrentDataService.dia"  },
+  "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\LoadState.swift": {
+    "dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\LoadState.d",
+    "object": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\LoadState.swift.o",
+    "swiftmodule": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\LoadState~partial.swiftmodule",
+    "swift-dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\LoadState.swiftdeps",
+    "diagnostics": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\LoadState.dia"  },
+  "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\MainActorExample.swift": {
+    "dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\MainActorExample.d",
+    "object": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\MainActorExample.swift.o",
+    "swiftmodule": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\MainActorExample~partial.swiftmodule",
+    "swift-dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\MainActorExample.swiftdeps",
+    "diagnostics": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\MainActorExample.dia"  },
+  "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\TaskItem.swift": {
+    "dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\TaskItem.d",
+    "object": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\TaskItem.swift.o",
+    "swiftmodule": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\TaskItem~partial.swiftmodule",
+    "swift-dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\TaskItem.swiftdeps",
+    "diagnostics": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\TaskItem.dia"  },
+  "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\TaskViewModel.swift": {
+    "dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\TaskViewModel.d",
+    "object": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\TaskViewModel.swift.o",
+    "swiftmodule": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\TaskViewModel~partial.swiftmodule",
+    "swift-dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\TaskViewModel.swiftdeps",
+    "diagnostics": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\TaskViewModel.dia"  }
+}

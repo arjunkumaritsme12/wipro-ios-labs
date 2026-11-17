@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\primary.swiftdeps"
+  },
+  "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.derived\\runner.swift": {
+    "dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\runner.d",
+    "object": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\runner.swift.o",
+    "swiftmodule": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\runner~partial.swiftmodule",
+    "swift-dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\runner.swiftdeps",
+    "diagnostics": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\runner.dia"  }
+}

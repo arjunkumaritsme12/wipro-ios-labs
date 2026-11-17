@@ -1,0 +1,1092 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.xctest",
+      "coverageBinaryPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.xctest",
+      "packagePath" : "D:\\wipro-ios-labs\\assessment-m2",
+      "productName" : "Milestone2PackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "Milestone2PackageDiscoveredTests"
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Milestone2-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\sources",
+      "importPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\ConcurrentDataService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\LoadState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\MainActorExample.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\TaskItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\TaskViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1D755C101D64DDFC.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Milestone2",
+      "moduleOutputPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2.swiftmodule",
+      "objects" : [
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\ConcurrentDataService.swift.o",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\LoadState.swift.o",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\MainActorExample.swift.o",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\TaskItem.swift.o",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\TaskViewModel.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\include\\Milestone2-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "assessment_m2"
+      ],
+      "outputFileMapPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\ConcurrentDataService.swift",
+        "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\LoadState.swift",
+        "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\MainActorExample.swift",
+        "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\TaskItem.swift",
+        "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\TaskViewModel.swift"
+      ],
+      "tempsPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Milestone2Demo-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Demo.build\\sources",
+      "importPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2Demo\\main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1D755C101D64DDFC.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Demo.build\\sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Milestone2Demo",
+      "moduleOutputPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2Demo.swiftmodule",
+      "objects" : [
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Demo.build\\main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "Milestone2Demo_main",
+        "-parse-as-library",
+        "-static",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "assessment_m2"
+      ],
+      "outputFileMapPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Demo.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2Demo.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2Demo\\main.swift"
+      ],
+      "tempsPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Demo.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Milestone2PackageDiscoveredTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\sources",
+      "importPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.derived\\Milestone2Tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.derived\\all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1D755C101D64DDFC.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2Tests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Milestone2PackageDiscoveredTests",
+      "moduleOutputPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2PackageDiscoveredTests.swiftmodule",
+      "objects" : [
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\Milestone2Tests.swift.o",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\all-discovered-tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\include\\Milestone2PackageDiscoveredTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "assessment_m2"
+      ],
+      "outputFileMapPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2PackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.derived\\Milestone2Tests.swift",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.derived\\all-discovered-tests.swift"
+      ],
+      "tempsPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Milestone2PackageTests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\sources",
+      "importPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.derived\\runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1D755C101D64DDFC.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2Tests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2PackageDiscoveredTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Milestone2PackageTests",
+      "moduleOutputPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2PackageTests.swiftmodule",
+      "objects" : [
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\include\\Milestone2PackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "assessment_m2"
+      ],
+      "outputFileMapPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2PackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.derived\\runner.swift"
+      ],
+      "tempsPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Milestone2Tests-x86_64-unknown-windows-msvc-debug.module" : {
+      "executable" : "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe",
+      "fileList" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Tests.build\\sources",
+      "importPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Tests\\Milestone2Tests\\ConcurrentFetchTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Tests\\Milestone2Tests\\MainActorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Tests\\Milestone2Tests\\TaskViewModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1D755C101D64DDFC.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Tests.build\\sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Milestone2Tests",
+      "moduleOutputPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2Tests.swiftmodule",
+      "objects" : [
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Tests.build\\ConcurrentFetchTests.swift.o",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Tests.build\\MainActorTests.swift.o",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Tests.build\\TaskViewModelTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-windows-msvc",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-static",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk",
+        "-libc",
+        "MD",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-I",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows",
+        "-L",
+        "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+        "-use-ld=lld",
+        "-g",
+        "-use-ld=lld",
+        "-Xcc",
+        "-D_MT",
+        "-Xcc",
+        "-D_DLL",
+        "-Xcc",
+        "-Xclang",
+        "-Xcc",
+        "--dependent-lib=msvcrt",
+        "-Xcc",
+        "-gdwarf",
+        "-package-name",
+        "assessment_m2"
+      ],
+      "outputFileMapPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Tests.build\\output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules\\Milestone2Tests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "D:\\wipro-ios-labs\\assessment-m2\\Tests\\Milestone2Tests\\ConcurrentFetchTests.swift",
+        "D:\\wipro-ios-labs\\assessment-m2\\Tests\\Milestone2Tests\\MainActorTests.swift",
+        "D:\\wipro-ios-labs\\assessment-m2\\Tests\\Milestone2Tests\\TaskViewModelTests.swift"
+      ],
+      "tempsPath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Tests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "Milestone2" : [
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "Milestone2",
+      "-package-name",
+      "assessment_m2",
+      "-c",
+      "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\ConcurrentDataService.swift",
+      "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\LoadState.swift",
+      "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\MainActorExample.swift",
+      "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\TaskItem.swift",
+      "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\TaskViewModel.swift",
+      "-I",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\include\\Milestone2-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "assessment_m2",
+      "-driver-use-frontend-path",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "Milestone2Demo" : [
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "Milestone2Demo",
+      "-package-name",
+      "assessment_m2",
+      "-c",
+      "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2Demo\\main.swift",
+      "-I",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "Milestone2Demo_main",
+      "-parse-as-library",
+      "-static",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "assessment_m2",
+      "-driver-use-frontend-path",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "Milestone2PackageDiscoveredTests" : [
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "Milestone2PackageDiscoveredTests",
+      "-package-name",
+      "assessment_m2",
+      "-c",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.derived\\Milestone2Tests.swift",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.derived\\all-discovered-tests.swift",
+      "-I",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\include\\Milestone2PackageDiscoveredTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "assessment_m2",
+      "-driver-use-frontend-path",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "Milestone2PackageTests" : [
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "Milestone2PackageTests",
+      "-package-name",
+      "assessment_m2",
+      "-c",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.derived\\runner.swift",
+      "-I",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\include\\Milestone2PackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "assessment_m2",
+      "-driver-use-frontend-path",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe"
+    ],
+    "Milestone2Tests" : [
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe",
+      "-module-name",
+      "Milestone2Tests",
+      "-package-name",
+      "assessment_m2",
+      "-c",
+      "D:\\wipro-ios-labs\\assessment-m2\\Tests\\Milestone2Tests\\ConcurrentFetchTests.swift",
+      "D:\\wipro-ios-labs\\assessment-m2\\Tests\\Milestone2Tests\\MainActorTests.swift",
+      "D:\\wipro-ios-labs\\assessment-m2\\Tests\\Milestone2Tests\\TaskViewModelTests.swift",
+      "-I",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Modules",
+      "-target",
+      "x86_64-unknown-windows-msvc",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-static",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\SDKs\\Windows.sdk",
+      "-libc",
+      "MD",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\XCTest-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-I",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows",
+      "-L",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Platforms\\6.4.2\\Windows.platform\\Developer\\Library\\Testing-6.4.2\\usr\\lib\\swift\\windows\\x86_64",
+      "-use-ld=lld",
+      "-g",
+      "-use-ld=lld",
+      "-Xcc",
+      "-D_MT",
+      "-Xcc",
+      "-D_DLL",
+      "-Xcc",
+      "-Xclang",
+      "-Xcc",
+      "--dependent-lib=msvcrt",
+      "-Xcc",
+      "-gdwarf",
+      "-package-name",
+      "assessment_m2",
+      "-driver-use-frontend-path",
+      "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe"
+    ]
+  },
+  "targetDependencyMap" : {
+    "Milestone2" : [
+
+    ],
+    "Milestone2Demo" : [
+      "Milestone2"
+    ],
+    "Milestone2PackageDiscoveredTests" : [
+      "Milestone2Tests",
+      "Milestone2"
+    ],
+    "Milestone2PackageTests" : [
+      "Milestone2PackageDiscoveredTests",
+      "Milestone2Tests",
+      "Milestone2"
+    ],
+    "Milestone2Tests" : [
+      "Milestone2"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : [
+      {
+
+      }
+    ]
+  },
+  "writeCommands" : {
+    "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\ConcurrentDataService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\LoadState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\MainActorExample.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\TaskItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2\\TaskViewModel.swift"
+        }
+      ],
+      "outputFilePath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2.build\\sources"
+    },
+    "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Demo.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Sources\\Milestone2Demo\\main.swift"
+        }
+      ],
+      "outputFilePath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Demo.build\\sources"
+    },
+    "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.derived\\Milestone2Tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.derived\\all-discovered-tests.swift"
+        }
+      ],
+      "outputFilePath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\sources"
+    },
+    "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.derived\\runner.swift"
+        }
+      ],
+      "outputFilePath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageTests.build\\sources"
+    },
+    "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Tests.build\\sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Tests\\Milestone2Tests\\ConcurrentFetchTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Tests\\Milestone2Tests\\MainActorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "D:\\wipro-ios-labs\\assessment-m2\\Tests\\Milestone2Tests\\TaskViewModelTests.swift"
+        }
+      ],
+      "outputFilePath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2Tests.build\\sources"
+    },
+    "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1D755C101D64DDFC.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "C:\\Users\\HP\\AppData\\Local\\Programs\\Swift\\Toolchains\\6.4.2+Asserts\\usr\\bin\\swiftc.exe"
+        }
+      ],
+      "outputFilePath" : "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\swift-version-1D755C101D64DDFC.txt"
+    }
+  }
+}

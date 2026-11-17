@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\primary.swiftdeps"
+  },
+  "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.derived\\Milestone2Tests.swift": {
+    "dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\Milestone2Tests.d",
+    "object": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\Milestone2Tests.swift.o",
+    "swiftmodule": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\Milestone2Tests~partial.swiftmodule",
+    "swift-dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\Milestone2Tests.swiftdeps",
+    "diagnostics": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\Milestone2Tests.dia"  },
+  "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.derived\\all-discovered-tests.swift": {
+    "dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\all-discovered-tests.d",
+    "object": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\all-discovered-tests.swift.o",
+    "swiftmodule": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\all-discovered-tests~partial.swiftmodule",
+    "swift-dependencies": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\all-discovered-tests.swiftdeps",
+    "diagnostics": "D:\\wipro-ios-labs\\assessment-m2\\.build\\index-build\\x86_64-unknown-windows-msvc\\debug\\Milestone2PackageDiscoveredTests.build\\all-discovered-tests.dia"  }
+}

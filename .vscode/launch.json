@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wipro-ios-labs}/assessment-m2",
+            "name": "Debug Milestone2Demo (assessment-m2)",
+            "target": "Milestone2Demo",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Milestone2Demo (assessment-m2)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:wipro-ios-labs}/assessment-m2",
+            "name": "Release Milestone2Demo (assessment-m2)",
+            "target": "Milestone2Demo",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Milestone2Demo (assessment-m2)"
+        }
+    ]
+}
