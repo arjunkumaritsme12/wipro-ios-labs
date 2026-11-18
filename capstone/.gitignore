@@ -1,0 +1,14 @@
+# Swift / Xcode
+.build/
+.DS_Store
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.app
+
+# Local evidence / generated output
+Screenshots/*.mp4

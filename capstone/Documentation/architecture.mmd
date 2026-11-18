@@ -1,0 +1,8 @@
+flowchart TD
+    A[SwiftUI Views] --> B[ExpenseViewModel]
+    B --> C[ExpenseService]
+    C --> D[ExpenseRepository protocol]
+    D --> E[JSONExpenseRepository]
+    E --> F[(expenses.json)]
+    G[Expense Model and Category] --> C
+    H[XCTest] --> C
